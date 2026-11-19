@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book a service · Patchfix</title>
+<meta name="description" content="Reliable home services for electrical, plumbing, appliances, cleaning and packers & movers.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand" aria-label="Patchfix home"><img src="images/patchfix-logo.png" alt="PatchFix — trusted by homes"></a>
+    <nav class="public-nav" id="public-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#how-it-works">How it works</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <div class="phone-actions phone-actions-compact">
+        <a href="tel:+9108248194154" class="text-link"><svg class="icon " width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call</a>
+        <a href="https://wa.me/9108248194154?text=Hi%20Patchfix%2C%20I%20need%20a%20home%20service." target="_blank" rel="noreferrer" class="whatsapp-link"><svg class="icon " width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg> WhatsApp</a>
+      </div>
+      <a href="book.html" class="button button-primary button-small">Book a service <svg class="icon " width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+    </div>
+    <button class="mobile-menu-button" id="menu-btn" aria-label="Toggle menu"><svg class="icon " width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg></button>
+  </div>
+</header>
+<main class="page-main booking-main"><div class="container booking-layout">
+<div class="booking-intro">
+  <a href="index.html" class="back-link"><svg class="icon " width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg> Back home</a>
+  <p class="kicker">Service request</p>
+  <h1>Let’s get your<br><em>home sorted.</em></h1>
+  <p>Share a few details and Patchfix will have the right context to take the next step.</p>
+  <div class="booking-assurance"><svg class="icon " width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg><span>Your details are only used to help with this service request.</span></div>
+</div>
+<div class="booking-card">
+  <div class="progress-row"><span id="p1" class="active">01 <b>Service</b></span><i></i><span id="p2">02 <b>Your details</b></span></div>
+  <div class="booking-step" id="step1">
+    <label style="display:block;margin-bottom:8px;font-size:12px;font-weight:700">What do you need help with?<span style="color:var(--coral);margin-left:3px">*</span></label>
+    <div class="choice-grid"><button type="button" class="choice-card" data-slug="electrical" data-name="Electrical"><span class="icon-wrap"><svg class="icon " width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span><strong>Electrical</strong><small>Electrical</small><svg class="icon choice-check" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></button><button type="button" class="choice-card" data-slug="plumbing" data-name="Plumbing"><span class="icon-wrap"><svg class="icon " width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"/></svg></span><strong>Plumbing</strong><small>Plumbing</small><svg class="icon choice-check" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></button><button type="button" class="choice-card" data-slug="appliances" data-name="Appliances"><span class="icon-wrap"><svg class="icon " width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h3"/><path d="M17 6h.01"/><rect width="18" height="20" x="3" y="2" rx="2"/><circle cx="12" cy="13" r="5"/><path d="M12 18a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 1 0-5"/></svg></span><strong>Appliances</strong><small>Home Appliances</small><svg class="icon choice-check" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></button><button type="button" class="choice-card" data-slug="cleaning" data-name="Cleaning"><span class="icon-wrap"><svg class="icon " width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg></span><strong>Cleaning</strong><small>Cleaning</small><svg class="icon choice-check" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></button><button type="button" class="choice-card" data-slug="packers-movers" data-name="Packers & Movers"><span class="icon-wrap"><svg class="icon " width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg></span><strong>Packers & Movers</strong><small>Packers & Movers</small><svg class="icon choice-check" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></button></div>
+    <div class="field"><label for="f-specific">Which service do you need?<span>*</span></label><input type="text" id="f-specific" placeholder="e.g. Fan installation, deep cleaning"></div>
+  </div>
+  <div class="booking-step" id="step2" hidden>
+    <div class="form-grid">
+      <div class="field"><label for="f-name">Your full name<span>*</span></label><input type="text" id="f-name" placeholder="Full name"></div>
+      <div class="field"><label for="f-phone">Phone number<span>*</span></label><input type="tel" id="f-phone" placeholder="+91"></div>
+      <div class="field"><label for="f-email">Email (optional)</label><input type="email" id="f-email" placeholder="you@example.com"></div>
+      <div class="field"><label for="f-city">City<span>*</span></label><input type="text" id="f-city" placeholder="Your city"></div>
+      <div class="field"><label for="f-pin">Pincode<span>*</span></label><input type="text" id="f-pin" placeholder="Pincode"></div>
+      <div class="field"><label for="f-date">Preferred date<span>*</span></label><input type="date" id="f-date" placeholder=""></div>
+      <div class="field"><label for="f-time">Preferred time<span>*</span></label><select id="f-time"><option value="">Choose a slot</option><option>Morning · 9am–12pm</option><option>Afternoon · 12pm–3pm</option><option>Evening · 3pm–7pm</option></select></div>
+    </div>
+    <div class="field"><label for="f-address">Where do you need us?<span>*</span></label><input type="text" id="f-address" placeholder="Full address"></div>
+    <div class="field"><label for="f-problem">Tell us a little more<span>*</span></label><textarea id="f-problem" rows="3" placeholder="What’s happening at home?"></textarea></div>
+    <div class="field"><label for="f-notes">Anything else? <span class="optional">(optional)</span></label><textarea id="f-notes" rows="2" placeholder="Access notes, timing preferences, or anything useful."></textarea></div>
+  </div>
+  <p class="form-error" id="form-error"></p>
+  <div class="booking-actions">
+    <button type="button" class="button button-quiet" id="btn-back" hidden><svg class="icon " width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg> Back</button>
+    <div class="booking-actions-right"><span class="form-hint" id="hint">Please complete the required fields.</span>
+      <button type="button" class="button button-primary" id="btn-next" disabled>Continue <svg class="icon " width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
+      <button type="button" class="button button-primary" id="btn-submit" hidden disabled>Send request <svg class="icon " width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></button>
+    </div>
+  </div>
+</div></div></main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="brand" aria-label="Patchfix home"><img src="images/patchfix-logo.png" alt="PatchFix"></a>
+      <p class="footer-copy">One trusted place for everything your home needs.</p>
+      <div class="phone-actions">
+        <a href="tel:+9108248194154" class="text-link"><svg class="icon " width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +91 082481 94154</a>
+        <a href="https://wa.me/9108248194154?text=Hi%20Patchfix%2C%20I%20need%20a%20home%20service." target="_blank" rel="noreferrer" class="whatsapp-link"><svg class="icon " width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg> WhatsApp</a>
+      </div>
+    </div>
+    <div><p class="footer-heading">Services</p><div class="footer-links"><a href="service-electrical.html">Electrical</a><a href="service-plumbing.html">Plumbing</a><a href="service-appliances.html">Appliances</a><a href="service-cleaning.html">Cleaning</a><a href="service-packers-movers.html">Packers & Movers</a></div></div>
+    <div><p class="footer-heading">Explore</p><div class="footer-links">
+      <a href="about.html">About Patchfix</a><a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy policy</a><a href="terms-and-conditions.html">Terms &amp; conditions</a></div></div>
+    <div><p class="footer-heading">Talk to us</p>
+      <p class="footer-note">Need help figuring out what to book? Call or WhatsApp and we’ll help you choose the right next step.</p>
+      <a href="tel:+9108248194154" class="footer-phone">+91 082481 94154</a></div>
+  </div>
+  <div class="container footer-bottom"><span>© <span id="year">2026</span> Patchfix</span><span>Built for better home days.</span></div>
+</footer>
+<div class="mobile-cta">
+  <a href="book.html">Book service</a>
+  <a href="tel:+9108248194154"><svg class="icon " width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call</a>
+  <a href="https://wa.me/9108248194154?text=Hi%20Patchfix%2C%20I%20need%20a%20home%20service." target="_blank" rel="noreferrer"><svg class="icon " width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg> WhatsApp</a>
+</div>
+<script src="js/main.js"></script>
+<script src="js/booking.js"></script>
+</body>
+</html>
